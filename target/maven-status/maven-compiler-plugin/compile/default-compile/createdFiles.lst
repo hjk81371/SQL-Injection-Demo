@@ -1,0 +1,5 @@
+org/scs/demo/controllers/HomeController.class
+org/scs/demo/models/User.class
+org/scs/demo/controllers/LoginController.class
+org/scs/DemoApplication.class
+org/scs/demo/services/UserService.class
