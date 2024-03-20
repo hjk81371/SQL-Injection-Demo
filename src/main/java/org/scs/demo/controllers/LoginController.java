@@ -46,7 +46,6 @@ public class LoginController {
         try {
             isAuthenticated = userService.authenticate(username, password);
         } catch (SQLException e) {
- 
             e.printStackTrace();
             String message = URLEncoder.encode("Authentication failed. Please try again.",
                     StandardCharsets.UTF_8);
